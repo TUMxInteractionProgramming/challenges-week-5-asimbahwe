@@ -246,7 +246,7 @@ function createChannelElement(channelObject) {
 function newChannel()
 {
     $('#messages').empty();
-    $('#channel-title h1').html('<div id="newc" style="display:flex;justify-content:space-between;"><input type="text" id="cname" placeholder="Enter a #ChannelName" style="width:80%;margin-bottom:15px;height:30px;">&nbsp;&nbsp;<span onclick="abortChannelCreation()" style="cursor:pointer;justify-self:flex-end;"><i class="fas fa-times"></i> ABORT</span></div>');
+    $('#channel-title h1').html('<div id="newc" style="display:flex;justify-content:space-between;"><input type="text" id="cname" placeholder="Enter a #ChannelName" style="width:80%;margin-bottom:15px;height:30px;">&nbsp;&nbsp;<span onclick="abortChannelCreation()" style="cursor:pointer;justify-self:flex-end;">ABORT</span></div>');
     $('#sendBtn').html('CREATE');
     $('#sendBtn').attr('onclick','saveChannelName()');
 }
